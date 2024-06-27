@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(189, 189, 197);
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: rgb(9, 225, 99);
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  
+}
+
+.container {
+  background-color: rgb(59, 65, 61);
+  width: 330px;
+  min-height: 430px;
+  border-radius: 4px;
+  box-shadow: 8px 8px 8px;
+  margin-top: 20px;
+  padding : 15px 0;
+}
+
+.val {
+  display: flex;
+}
+
+.box {
+  border-radius: 4px;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 10px;  
+}
+
+.input {
+  border: none;
+  width: 210px;
+  height: 27px;
+  margin-left: 36px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 18px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  padding-left: 5px;
+  
+}
+
+img {
+  width: 18px;
+  height: 16px;
+}
+
+.button {
+  border: none;
+  background-color: rgb(21, 155, 77);
+  color: white;
+  height:27px ;
+  padding:1px 6px;
+  font-size: 16px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px; 
+}
+
+.container li {
+  list-style: none;
+}
+
+.task-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(21, 155, 77);
+  color: white;
+  padding:4px 6px;
+  margin:5px 38px;
+  border-radius: 4px;
+  font-size: 18px;
+}
